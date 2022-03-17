@@ -1,0 +1,199 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "小吃類",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "第i則",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "開團日期:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "date",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "類型:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "kind",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "店家名稱:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "food",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "付費方式:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "pay",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "取貨地點:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "place",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "原外送費用:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "dmoney",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "外送接棒收費:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "takemoney",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "預計開放參與者人數:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "people",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "入團連結:",
+                "color": "#aaaaaa",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "inviteurl",
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

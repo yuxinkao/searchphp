@@ -1,18 +1,5 @@
 {
-	"name": "searchphp/heroku-buildpack-php",
-	"description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP and Apache2/Nginx as on Heroku",
-	"keywords": ["heroku", "foreman", "php", "apache", "apache2", "nginx"],
-	"homepage": "https://github.com/searchphp/heroku-buildpack-php",
-	"type": "library",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "yuxinkao",
-			"email": "yuhsin901111@gmail.com"
-		}
-	],
-	"bin": [
-		"bin/heroku-php-apache2",
-		"bin/heroku-php-nginx"
-	]
+  "require": {
+    "silex/silex": "~1.1",
+  }
 }

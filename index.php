@@ -11,7 +11,7 @@ $link = mysqli_connect("acw2033ndw0at1t7.cbetxkdyhwsb.us-east-1.rds.amazonaws.co
         or die("無法開啟MySQL資料庫連接!<br/>");
 mysqli_select_db($link, "gk4xqozmcqv07zee");  // 選擇gk4xqozmcqv07zeev資料庫
 // 指定SQL查詢字串
-$sql = "SELECT * FROM delivery";
+$sql = "SELECT date,kind,food,pay,place,dmoney,takemoney,people,inviteurl FROM delivery";
 // 送出查詢的SQL指令
 if ( $result = mysqli_query($link, $sql) ) { 
    // 取得記錄數

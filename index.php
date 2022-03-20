@@ -55,7 +55,7 @@ if ( $pages < $total_pages )  // 顯示下一頁
    echo "|<a href='Ch11_3.php?Pages=".($pages+1).
         "'>下一頁</a> ";
 mysqli_free_result($result);  // 釋放佔用的記憶體
-require_once("gk4xqozmcqv07zee_close.inc");
+mysqli_close($link);  // 關閉資料庫連接
 ?>
 </body>
 </html>

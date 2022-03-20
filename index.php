@@ -20,10 +20,10 @@ if ( $result = mysqli_query($link, $sql) ) {
    echo "開團總數:共 $total_records 團<br/>"; 
    echo "<table border=><tr>";
 // 顯示欄位名稱
- while ( $meta = mysqli_fetch_field($result) )
+ //while ( $meta = mysqli_fetch_field($result) )
 
    //echo "<td>".$meta->name."</td>";
-     echo "<td>"開團日期"</td>";
+echo "<tr><td>開團日期</td><td>類型</td><td>店家名稱</td><td>付費方式</td><td>取貨地點</td><td>原外送費用</td><td>外送接棒費用</td><td>預計參與人數</td><td>入團連結</td></tr>"; 
 echo "</tr>"; // 取得欄位數
 $total_fields = mysqli_num_fields($result);
 // 顯示每一筆記錄

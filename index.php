@@ -20,7 +20,7 @@ if ( $result = mysqli_query($link, $sql) ) {
    echo "開團總數:共 $total_records 團<br/>"; 
    echo "<table border=><tr>";
 // 顯示欄位名稱
-// while ( $meta = mysqli_fetch_field($result) )
+ while ( $meta = mysqli_fetch_field($result) )
 
    //echo "<td>".$meta->name."</td>";
      echo "<td>"開團日期"</td>";

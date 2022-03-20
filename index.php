@@ -17,20 +17,10 @@ if ( $result = mysqli_query($link, $sql) ) {
    // 取得記錄數
    $total_records = mysqli_num_rows($result);
    echo "開團總數:共 $total_records 團<br/>"; 
-   echo "<table border=0><tr>";
+   echo "<table border=><tr>";
 // 顯示欄位名稱
 while ( $meta = mysqli_fetch_field($result) )
-        table{undefined
 
-width:100%;
-
-border-left:#C8B9AE solid 1px;
-
-border-top:#C8B9AE solid 1px;
-
-border-collapse:collapse;
-
-}
    echo "<td>".$meta->name."</td>";
 echo "</tr>"; // 取得欄位數
 $total_fields = mysqli_num_fields($result);

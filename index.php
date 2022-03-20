@@ -16,7 +16,7 @@ $sql = "SELECT date,kind,food,pay,place,dmoney,takemoney,people,inviteurl FROM d
 if ( $result = mysqli_query($link, $sql) ) { 
    // 取得記錄數
    $total_records = mysqli_num_rows($result);
-   echo "項目類別:台式<br/>"; 
+   echo "<center>項目類別:台式</center><br/>"; 
    echo "開團總數:共 $total_records 團<br/>"; 
    echo "<table border=><tr>";
 // 顯示欄位名稱

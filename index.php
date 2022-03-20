@@ -20,6 +20,17 @@ if ( $result = mysqli_query($link, $sql) ) {
    echo "<table border=0><tr>";
 // 顯示欄位名稱
 while ( $meta = mysqli_fetch_field($result) )
+        table{undefined
+
+width:100%;
+
+border-left:#C8B9AE solid 1px;
+
+border-top:#C8B9AE solid 1px;
+
+border-collapse:collapse;
+
+}
    echo "<td>".$meta->name."</td>";
 echo "</tr>"; // 取得欄位數
 $total_fields = mysqli_num_fields($result);

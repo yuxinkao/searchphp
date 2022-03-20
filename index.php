@@ -33,6 +33,8 @@ while ($row = mysqli_fetch_row($result)) {
    echo "</tr>";
 }
 echo "</table>";
+
+else(echo"查無資料,快去開起第一團吧";)
         
 // 查詢小吃
 $sql = "SELECT date,kind,food,pay,place,dmoney,takemoney,people,inviteurl FROM delivery where kind='小吃'";
@@ -58,6 +60,8 @@ while ($row = mysqli_fetch_row($result)) {
 }
 echo "</table>";
         
+else(echo"查無資料,快去開起第一團吧";)
+        
 // 查詢日式
 $sql = "SELECT date,kind,food,pay,place,dmoney,takemoney,people,inviteurl FROM delivery where kind='日式'";
 // 送出查詢的SQL指令
@@ -81,6 +85,8 @@ while ($row = mysqli_fetch_row($result)) {
    echo "</tr>";
 }
 echo "</table>";
+        
+else(echo"查無資料,快去開起第一團吧";)
    mysqli_free_result($result); // 釋放佔用記憶體 
 } 
 mysqli_close($link);  // 關閉資料庫連接

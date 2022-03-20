@@ -17,7 +17,7 @@ if ( $result = mysqli_query($link, $sql) ) {
    // 取得記錄數
    $total_records = mysqli_num_rows($result);
    echo "開團總數:共 $total_records 團<br/>"; 
-   echo "<table border=1><tr>";
+   echo "<table border=0><tr>";
 // 顯示欄位名稱
 while ( $meta = mysqli_fetch_field($result) )
    echo "<td>".$meta->name."</td>";

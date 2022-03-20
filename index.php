@@ -37,28 +37,29 @@ while ($row = mysqli_fetch_row($result)) {
 echo "</table>";
         
 // 送出查詢小吃的SQL指令
-if ( $result = mysqli_query($link, $sqltwo) ) { 
+if ( $resulttwo = mysqli_query($link, $sqltwo) ) { 
    // 取得記錄數
-   $total_records = mysqli_num_rows($result);
+   $total_recordstwo = mysqli_num_rows($resulttwo);
    echo "項目類別:小吃<br/>"; 
-   echo "開團總數:共 $total_records 團<br/>"; 
+   echo "開團總數:共 $total_recordstwo 團<br/>"; 
    echo "<table border=><tr>";
 // 顯示欄位名稱
-while ( $meta = mysqli_fetch_field($result) )
+while ( $metatwo = mysqli_fetch_field($resulttwo) )
 
-   echo "<td>".$meta->name."</td>";
+   echo "<td>".$metatwo->name."</td>";
 echo "</tr>"; // 取得欄位數
-$total_fields = mysqli_num_fields($result);
+$total_fieldstwo = mysqli_num_fields($resulttwo);
 // 顯示每一筆記錄
-while ($row = mysqli_fetch_row($result)) {
+while ($rowtwo = mysqli_fetch_row($resulttwo)) {
    echo "<tr>"; // 顯示每一筆記錄的欄位值
-   for ( $i = 0; $i <= $total_fields-1; $i++ )
-      echo "<td>" . $row[$i] . "</td>";
+   for ( $i = 0; $i <= $total_fieldstwo-1; $i++ )
+      echo "<td>" . $rowtwo[$i] . "</td>";
    echo "</tr>";
 }
 echo "</table>";
 
    mysqli_free_result($result); // 釋放佔用記憶體 
+   mysqli_free_result($resulttwo); // 釋放佔用記憶體
 } 
 mysqli_close($link);  // 關閉資料庫連接
 ?>

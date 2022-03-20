@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>開團查詢</title>
+<title>台式查詢</title>
 </head>
 <body>
 <?php

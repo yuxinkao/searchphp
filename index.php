@@ -30,7 +30,7 @@ $total_fields = mysqli_num_fields($result);
 while ($row = mysqli_fetch_row($result)) {
    echo "<tr>"; // 顯示每一筆記錄的欄位值
    for ( $i = 0; $i <= $total_fields-1; $i++ )
-      echo "<td><a href='#'>" . $row[$i] . "</a></td>";
+      echo "<td><a href=' . $row[$i] .'>" . $row[$i] . "</a></td>";
    echo "</tr>";
 }
 echo "</center></table>";

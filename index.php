@@ -23,7 +23,7 @@ if ( $result = mysqli_query($link, $sql) ) {
 // while ( $meta = mysqli_fetch_field($result) )
 
    //echo "<td>".$meta->name."</td>";
-     echo "<td>."開團日期".."類型".."店家名稱".."付費方式".."取貨地點".."原外送費用".."外送接棒收費".."預計開放人數".."入團連結".</td>";
+     echo "<td>"開團日期","類型","店家名稱","付費方式","取貨地點","原外送費用","外送接棒收費","預計開放人數","入團連結".</td>";
 echo "</tr>"; // 取得欄位數
 $total_fields = mysqli_num_fields($result);
 // 顯示每一筆記錄
